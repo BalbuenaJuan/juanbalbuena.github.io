@@ -1,0 +1,65 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    height: 350px;
+    background-image: url("../../img/bg.jpg");
+    background-position: center bottom;
+}
+
+header h1 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: #000 1px 2px 2px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: #000 1px 2px 2px;
+    margin: 0;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+header section {
+    padding-top: 50px;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main article {
+    width: 65%;
+    margin: 0 auto;
+    text-align: left;
+}
+main article h3::first-letter {
+    font-size: 42px;
+}
+
+main article h3 {
+    font-weight: 700;
+}
+
+main article p {
+    font-weight: 400;
+}
