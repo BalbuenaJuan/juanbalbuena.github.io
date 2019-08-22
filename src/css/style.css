@@ -76,6 +76,16 @@ main article p {
     font-weight: 400;
 }
 
+.anchor--header {
+    text-decoration: none;
+    display: block;
+}
+
+.img {
+    max-width: 90%;
+    height: auto;    
+}
+
 @media (min-width: 680px){
     footer {
         width: 75%;
@@ -104,7 +114,12 @@ main article p {
     }
     main article {
         width: 55%;
-    }    
+    }   
+    
+    .img {
+        height: auto;
+        max-width: 80%;    
+    }
 }
 
 @media (min-width: 1680px){

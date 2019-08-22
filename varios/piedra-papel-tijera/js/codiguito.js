@@ -1,3 +1,4 @@
+
 var t; var b; var a; var numero; var m; var r;
 
 function numeroAleatorio(minimo,maximo)
@@ -9,8 +10,6 @@ function numeroAleatorio(minimo,maximo)
 var piedra = 0;
 var papel = 1;
 var tijera = 2;
-
-
 
 function calcular()
 {
@@ -85,9 +84,6 @@ function calcular()
 		}
 	}
 
-
-
-
 }
 
 function inicio()
@@ -100,9 +96,9 @@ function inicio()
 
 	b.addEventListener("click", calcular);
 
-    t.addEventListener('keyup', clacularKeyCode);
+    t.addEventListener('keyup', calcularKeyCode);
 
-    function clacularKeyCode( evt ){
+    function calcularKeyCode( evt ){
         if (evt.keyCode == 13){
             calcular()
         }
